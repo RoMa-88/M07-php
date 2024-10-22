@@ -1,0 +1,140 @@
+#topbar ul {
+    background-color: antiquewhite;
+    width: auto;
+}
+
+#topbar ul li {
+    display: inline;
+    text-decoration: none;
+    color: darkblue;
+}
+
+#topbar ul li a {
+    text-decoration: none;
+    background-color: lightgray;
+}
+
+#topbar ul * :hover {
+    background-color: burlywood;
+    color: whitesmoke;
+}
+
+/* Estilos para la barra de menú */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Centrar los elementos del menú */
+nav ul {
+    list-style-type: none;
+    /* Eliminar puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Mostrar los elementos en una línea */
+    justify-content: center;
+    /* Centrar los ítems horizontalmente */
+}
+
+nav ul li {
+    margin: 0 15px;
+    /* Espaciado entre los ítems */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* Sección de bienvenida */
+.welcome-section {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Centrar la imagen de bienvenida */
+.welcome-section img {
+    display: block;
+    margin: 0 auto;
+    /* Centrar horizontalmente */
+    max-width: 100%;
+    /* Asegurarse que la imagen no sobresalga del contenedor */
+}
+
+div.footer {
+    background-color: antiquewhite;
+    ;
+    color: blueviolet;
+}
+
+.alert {
+    border: 2px solid #4CAF50;
+    padding: 15px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para la página de administración */
+.admin-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.admin-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.admin-section p {
+    color: #666;
+}
+
+/* Barra de menú específica para la fase 2 (dependiendo del rol) */
+nav.admin {
+    background-color: #444;
+}
+
+nav.user {
+    background-color: #222;
+}
+
+/*footer {*/
+/*background-color: #333;*/
+/* Fondo gris oscuro */
+/*color: white;*/
+/* Texto blanco */
+/*padding: 20px;*/
+/* Añadimos un poco de espacio dentro del footer */
+/*text-align: center;*/
+/* Centramos el texto */
+/*border-radius: 10px;*/
+/* Bordes redondeados */
+/*margin-top: 20px;*/
+/* Separación superior del contenido anterior */
+/*}*/
+
+/*footer a {*/
+/*color: white;*/
+/* Color blanco para los enlaces */
+/*text-decoration: none;*/
+/* Sin subrayado */
+/*}*/
+
+/*footer a:hover {*/
+/*color: #ccc;*/
+/* Cambiamos el color al pasar el ratón por encima */
+/*}*/
